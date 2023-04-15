@@ -10,7 +10,7 @@ Repositoty for practices with an industrial robot model ABB IRB140 using Digital
 ---
 # Input/Output Definition
 
-The goal was to command different paths or sequences previously defined (on [this repository](https://github.com/Canborda/robotics-abbIRB140)) with the usage of __digital inputs__. In Robot Studio is possible to make simulation with "virtual" inputs & outputs, and in the physical laboratory we use industrial buttons to send a signal to the controller.
+The goal was to command different paths or sequences previously defined (on [this repository](https://github.com/Canborda/robotics-lab1)) with the usage of __digital inputs__. In Robot Studio is possible to make simulation with "virtual" inputs & outputs, and in the physical laboratory we use industrial buttons to send a signal to the controller.
 
 ### I/O in RobotStudio
 
@@ -53,5 +53,15 @@ PROC main()
     ENDWHILE
 ENDPROC
 ```
+
+---
+# Simulation
+
+https://user-images.githubusercontent.com/55401093/194969541-578c71eb-a281-48e8-9473-94cb750bf770.mp4
+
+--- 
+# Demonstration
+
+https://user-images.githubusercontent.com/55401093/194969574-727c1e2c-fea1-468f-b040-2997ec295016.mp4
 
 ---
