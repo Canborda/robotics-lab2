@@ -32,3 +32,26 @@ The IRC5 controller has already configured an I/O module `3HAC025917-001/00 DSQC
 <p align="center"><img height=200 src="./assets/controlpanel.png" alt="I/O control panel" /></p>
 
 ---
+# RAPID Code
+
+Within RAPID language is possible to define basic if/else sentences and loops, so the logic for this assignment was very straightforward. The algorithm consists on an infinite loop that waits until any digital input (`DI_01`, `DI_02`) has the value toggled on, and then execute the respective path procedure.
+
+```
+PROC main()
+    Path_Start;
+    RESET DO_01;
+    WHILE TRUE DO
+        IF DI_01 = 1 THEN
+            Path_Start;
+            SET DO_01;
+            Path_B;
+            Path_C;
+            RESET DO_01;
+        ELSEIF DI_02 = 1 THEN
+            Path_Maintenance;
+        ENDIF
+    ENDWHILE
+ENDPROC
+```
+
+---
