@@ -65,3 +65,10 @@ https://user-images.githubusercontent.com/55401093/194969541-578c71eb-a281-48e8-
 https://user-images.githubusercontent.com/55401093/194969574-727c1e2c-fea1-468f-b040-2997ec295016.mp4
 
 ---
+# Conclusions
+
+- The use of inputs and outputs in both an industrial and academic context is very importance, since it allows the degree of control of the manipulators to be increased, making it possible to manage routines as required or needed.
+- The management of inputs and outputs together with RAPID programming, makes the use of manipulators more flexible, because compared to fixed routines, the only control you have is being able to pause, resume and make emergency stops. Combining routines with inputs, outputs and RAPID allows to make a better use of the information from the environment or that which comes from the operator himself.
+- When making the transition from the simulation environment to the implementation in the manipulators, it must be taken into account that both the routines and WorkObjects are located in such a way that they will not reach a singularity, This will avoid the routines to stop during the path execution.
+
+---
